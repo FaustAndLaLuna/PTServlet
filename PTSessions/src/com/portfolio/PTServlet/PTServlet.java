@@ -29,10 +29,13 @@ public class PTServlet extends HttpServlet {
 	private static final long serialVersionUID = 1L;
 	
 	private static final String setPath = "/Volumes/LuisToshiba/ProTools";  
-    private static final String ROOT = "/Users/Dovahart 1/Desktop/ProToolsFolder" +  "/internalDB.iDB";
+    	private static final String ROOT = "/Users/Dovahart 1/Desktop/ProToolsFolder" +  "/internalDB.iDB";
+	//ROOT sets where the server saves and gets images.
+	//Please notice that, unless you use the same directory,
+	//you'll have to edit the context of the server.
 	private static final String ip="localhost";
 	private static final String user="root";
-	private static final String pass="420414imi2017";
+	private static final String pass="";
 	private static final String port="3306";
 	private static final boolean RESETDATABASE=true;
 	private static final int DOWNLOADMN = 3;
